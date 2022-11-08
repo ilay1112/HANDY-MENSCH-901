@@ -1,23 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Prompt:wght@200;400&display=swap');
 
+/* font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Prompt', sans-serif; */
 
 body {
-    background-color: aquamarine;
-    letter-spacing: 0.4rem;
+    background-color: antiquewhite;
+    font-family: 'Prompt', sans-serif;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Anton', sans-serif;
+    font-weight: bold;
     font-size: 70px;
 }
 
 h2 {
     text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     margin-bottom: 0;
     margin-top: 0;
+}
+
+.sub_title {
+    margin-bottom: 100px;
+}
+
+.call_us {
+    background-color: aliceblue;
+    border: 4px solid black;
 }
 
 .call_us_sat {
@@ -32,13 +43,11 @@ h2 {
 
 h3 {
     text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 32px;
+    font-size: 50px;
     text-decoration: underline;
 }
 
 p {
     text-align: center;
-    font-family: 'Anton', sans-serif;
     font-size: 24px;
 }
